@@ -1,7 +1,7 @@
 //parse jssn parser
 let trg=document.getElementById("mess");
 (function(){
-let parse = new parseJSSNFile("db/db.jssn");
+let parse = new parseJSSNFile("db.jssn");
 parse.then(res=>{
   console.log(res);
   let key=JSON.parse(res);
