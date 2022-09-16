@@ -28,7 +28,7 @@ header{
 header>h3{
   font-family: mont;
   color: mediumseagreen;
-  
+  float:left;
 }
 
 header>nav{
